@@ -119,7 +119,11 @@ begin
                 ShowMessage('Pedido não cadastrado/alterado.');
                 edtIdCliente.SetFocus;
             end;
-            else edtIdProduto.SetFocus
+            else
+            begin
+                pnlItem.Enabled := true;
+                edtIdProduto.SetFocus
+            end;
         end;
     finally
         FreeAndNil(tempObj);

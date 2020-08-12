@@ -72,6 +72,8 @@ var
     tempObjeto: TItensObj;
 begin
     result := TObjectList.Create;
+    case string.IsNullOrEmpty(pId_pedido) of true: EXIT; end;
+
     tempDataset := TDataSet.Create(nil);
 
     case string.IsNullOrEmpty(pSentenca) of

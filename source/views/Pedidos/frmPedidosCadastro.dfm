@@ -40,7 +40,7 @@ inherited frm_PedidosCadastro: Tfrm_PedidosCadastro
     Width = 528
     Height = 30
     TabOrder = 4
-    ExplicitTop = 59
+    ExplicitTop = 48
     ExplicitWidth = 528
     ExplicitHeight = 30
     inherited btnGravar: TButton
@@ -62,7 +62,6 @@ inherited frm_PedidosCadastro: Tfrm_PedidosCadastro
     RowCount = 1
     FixedRows = 0
     TabOrder = 5
-    ExplicitTop = 79
     ColWidths = (
       64)
     RowHeights = (
@@ -101,7 +100,6 @@ inherited frm_PedidosCadastro: Tfrm_PedidosCadastro
     Align = alBottom
     BevelOuter = bvNone
     TabOrder = 6
-    ExplicitWidth = 492
     object Label5: TLabel
       Left = 8
       Top = 6
